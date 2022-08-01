@@ -1,0 +1,6 @@
+{
+  "parent": "mcmod:block/fancy_ore",
+  "textures": {
+    "layer0": "mcmod:item/fancy_ore_item"
+  }
+}
