@@ -1,0 +1,39 @@
+{
+  "group":"mcmod",
+  "type":"minecraft:crafting_shaped",
+  "pattern":
+  [
+    " yx",
+    "yzx",
+    " yx"
+  ],
+
+
+  "key":
+  {
+
+    "x":
+    {
+      "item":"minecraft:string"
+    },
+
+    "y":
+    {
+      "item":"minecraft:stick"
+    },
+    "z":
+    {
+      "item":"minecraft:arrow"
+    }
+
+  },
+
+
+  "result":
+  {
+    "item":"mcmod:my_bow",
+    "count":1
+  }
+
+
+}

@@ -1,0 +1,29 @@
+{
+  "group":"mcmod",
+  "type":"minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+
+  "key":
+  {
+
+    "x":
+    {
+      "item":"minecraft:nether_star"
+    }
+
+  },
+
+
+  "result":
+  {
+    "item":"mcmod:nether_block_item",
+    "count":1
+  }
+
+
+}

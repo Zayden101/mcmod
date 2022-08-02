@@ -1,0 +1,17 @@
+{
+  "group": "mcmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":[
+  {
+    "item": "minecraft:slime_ball"
+  },
+    {
+      "item": "minecraft:stone"
+    }
+],
+  "result":
+  {
+    "item": "mcmod:fancy_ore_item",
+    "count": 1
+  }
+}

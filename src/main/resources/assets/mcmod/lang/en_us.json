@@ -5,5 +5,17 @@
   "item.mcmod.my_pickaxe": "Slime Pickaxe",
   "item.mcmod.my_axe": "Slime Axe",
   "item.mcmod.my_shovel": "Slime Shovel",
-  "item.mcmod.my_hoe": "Slime Hoe"
+  "item.mcmod.my_hoe": "Slime Hoe",
+  "item.mcmod.my_bow": "Bow",
+  "item.mcmod.damage": "Damage",
+  "item.mcmod.my_crossbow": "Crossbow",
+  "item.mcmod.throwable_arrow": "Throwable Arrow",
+  "block.mcmod.nether_block": "Nether Block",
+  "item.mcmod.redstoneaxe": "Redstone Axe",
+  "item.mcmod.redstonesword": "Redstone Sword",
+  "item.mcmod.redstonepickaxe": "Redstone Pickaxe",
+  "item.mcmod.redstoneshovel": "Redstone Shovel",
+  "item.mcmod.redstonehoe": "Redstone Hoe"
+
+
 }

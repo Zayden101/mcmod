@@ -1,0 +1,34 @@
+{
+  "group":"mcmod",
+  "type":"minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    " y ",
+    " y "
+  ],
+
+  "key":
+  {
+
+    "x":
+    {
+      "item":"minecraft:slime_ball"
+    },
+
+    "y":
+    {
+      "item":"minecraft:stick"
+    }
+
+  },
+
+
+  "result":
+  {
+    "item":"mcmod:my_pickaxe",
+    "count":1
+  }
+
+
+}

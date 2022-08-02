@@ -1,0 +1,26 @@
+{
+  "group": "mcmod",
+  "type": "minecraft:smelting",
+
+
+  "ingredient":
+  {
+    "item": "minecraft:slime_block"
+  },
+
+
+  "result":
+  {
+    "item": "mcmod:fancy_ore_item",
+    "count": 1
+  },
+
+
+  "experience": 100,
+  "cookingtime": 100
+
+
+
+
+
+}

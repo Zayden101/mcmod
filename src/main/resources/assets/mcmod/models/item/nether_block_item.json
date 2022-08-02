@@ -1,0 +1,6 @@
+{
+  "parent": "mcmod:block/nether_block",
+  "textures": {
+    "layer0": "mcmod:item/nether_block_item"
+  }
+}
