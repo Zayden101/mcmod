@@ -21,15 +21,46 @@ public class ModBlocks {
     public static final RegistryObject<Item> MY_SWORD = ITEMS.register("my_sword", () -> new SwordItem(ItemTier.NETHERITE, 8, -0.5f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
     public static final RegistryObject<Item> MY_HOE = ITEMS.register("my_hoe", () -> new HoeItem(ItemTier.NETHERITE, 1, -1.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
     public static final RegistryObject<Item> MY_BOW = ITEMS.register("my_bow", () -> new BowItem(new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
-    public static final RegistryObject<Item> DAMAGE = ITEMS.register("damage", () -> new HoeItem(ItemTier.NETHERITE, 100, -0.1f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> DAMAGE = ITEMS.register("damage", () -> new HoeItem(ItemTier.NETHERITE, 99999, -0.1f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
     public static final RegistryObject<Item> MY_CROSSBOW = ITEMS.register("my_crossbow", () -> new CrossbowItem(new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
     public static final RegistryObject<Item> THROWABLE_ARROW = ITEMS.register("throwable_arrow", () -> new BowItem(new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
     public static final RegistryObject<Block> NETHER_BLOCK = BLOCKS.register("nether_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE)));
     public static final RegistryObject<BlockItem> NETHER_BLOCK_ITEM = ITEMS.register("nether_block_item", () -> new BlockItem(NETHER_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
-    public static final RegistryObject<Item> REDSTONEAXE= ITEMS.register("redstoneaxe", () -> new AxeItem(ItemTier.NETHERITE, 10, -1.5f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
-    public static final RegistryObject<Item> REDSTONEPICKAXE = ITEMS.register("redstonepickaxe", () -> new PickaxeItem(ItemTier.NETHERITE, 1, -0.5f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
-    public static final RegistryObject<Item> REDSTONESHOVEL = ITEMS.register("redstoneshovel", () -> new ShovelItem(ItemTier.NETHERITE, 2, -1.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
-    public static final RegistryObject<Item> REDSTONESWORD = ITEMS.register("redstonesword", () -> new SwordItem(ItemTier.NETHERITE, 4, -0.3f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
-    public static final RegistryObject<Item> REDSTONEHOE = ITEMS.register("redstonehoe", () -> new HoeItem(ItemTier.NETHERITE, 1, -0.5f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> REDSTONE_SWORD = ITEMS.register("redstone_sword", () -> new SwordItem(ItemTier.STONE, 3, -1.8f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> REDSTONE_PICKAXE = ITEMS.register("redstone_pickaxe", () -> new PickaxeItem(ItemTier.STONE, 1, -2.8f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> REDSTONE_AXE= ITEMS.register("redstone_axe", () -> new AxeItem(ItemTier.STONE, 5, -3.3f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> REDSTONE_SHOVEL = ITEMS.register("redstone_shovel", () -> new ShovelItem(ItemTier.STONE, 2, -2.9f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> REDSTONE_HOE = ITEMS.register("redstone_hoe", () -> new HoeItem(ItemTier.STONE, 1, -2.5f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> EMERALD_SWORD= ITEMS.register("emerald_sword", () -> new SwordItem(ItemTier.STONE, 2, -1.3f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () -> new PickaxeItem(ItemTier.WOOD, 2, -1.5f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe", () -> new AxeItem(ItemTier.STONE, 3, -2.3f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", () -> new ShovelItem(ItemTier.STONE, 1, -1.4f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe", () -> new HoeItem(ItemTier.WOOD, 1, -1.8f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> LAPIS_SWORD= ITEMS.register("lapis_sword", () -> new SwordItem(ItemTier.IRON, 5, -3.2f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> LAPIS_PICKAXE = ITEMS.register("lapis_pickaxe", () -> new PickaxeItem(ItemTier.IRON, 2, -3.5f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> LAPIS_AXE = ITEMS.register("lapis_axe", () -> new AxeItem(ItemTier.IRON, 27, -3.9f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> LAPIS_SHOVEL = ITEMS.register("lapis_shovel", () -> new ShovelItem(ItemTier.IRON, 3, -3.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> LAPIS_HOE = ITEMS.register("lapis_hoe", () -> new HoeItem(ItemTier.IRON, 1, -3.3f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> COPPER_SWORD= ITEMS.register("copper_sword", () -> new SwordItem(ItemTier.STONE, 2, -2.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(ItemTier.STONE, 1, -2.3f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> COPPER_AXE = ITEMS.register("copper_axe", () -> new AxeItem(ItemTier.STONE, 3, -3.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ShovelItem(ItemTier.STONE, 1, -2.3f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("copper_hoe", () -> new HoeItem(ItemTier.STONE, 1, -2.3f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> NETHER_STAR_SWORD= ITEMS.register("nether_star_sword", () -> new SwordItem(ItemTier.NETHERITE, 8, -2.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> NETHER_STAR_PICKAXE = ITEMS.register("nether_star_pickaxe", () -> new PickaxeItem(ItemTier.NETHERITE, 6, -2.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> NETHER_STAR_AXE = ITEMS.register("nether_star_axe", () -> new AxeItem(ItemTier.NETHERITE, 16, -2.5f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> NETHER_STAR_SHOVEL = ITEMS.register("nether_star_shovel", () -> new ShovelItem(ItemTier.NETHERITE, 5, -2.3f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> NETHER_STAR_HOE = ITEMS.register("nether_star_hoe", () -> new HoeItem(ItemTier.NETHERITE, 3, -2.3f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+
+    //public static final RegistryObject<Item> COAL_SWORD= ITEMS.register("coal_sword", () -> new SwordItem(ItemTier.WOOD, 2, -2.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    //public static final RegistryObject<Item> COAL_PICKAXE = ITEMS.register("coal_pickaxe", () -> new PickaxeItem(ItemTier.WOOD, 1, -2.6f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    //public static final RegistryObject<Item> COAL_AXE = ITEMS.register("coal_axe", () -> new AxeItem(ItemTier.WOOD, 3, -3.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    //public static final RegistryObject<Item> COAL_SHOVEL = ITEMS.register("coal_shovel", () -> new ShovelItem(ItemTier.WOOD, 1, -2.9f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    //public static final RegistryObject<Item> COAL_HOE = ITEMS.register("coal_hoe", () -> new HoeItem(ItemTier.WOOD, 1, -2.7f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
 }

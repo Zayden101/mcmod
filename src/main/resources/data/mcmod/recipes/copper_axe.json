@@ -1,0 +1,35 @@
+{
+  "group":"mcmod",
+  "type":"minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "xy ",
+    " y "
+  ],
+
+
+  "key":
+  {
+
+    "x":
+    {
+      "item":"minecraft:copper_ingot"
+    },
+
+    "y":
+    {
+      "item":"minecraft:stick"
+    }
+
+  },
+
+
+  "result":
+  {
+    "item":"mcmod:copper_axe",
+    "count":1
+  }
+
+
+}

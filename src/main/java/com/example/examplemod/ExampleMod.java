@@ -2,8 +2,10 @@ package com.example.examplemod;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.enchantment.SoulSpeedEnchantment;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -84,4 +86,12 @@ public class ExampleMod
             LOGGER.info("HELLO from Register Block");
         }
     }
+
+    @SubscribeEvent
+    public void ItemCrafted (PlayerEvent.ItemCraftedEvent event) {
+        event.getPlayer().giveExperiencePoints(5);
+    }
+
+
+
 }

@@ -1,0 +1,35 @@
+{
+  "group":"mcmod",
+  "type":"minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    " x ",
+    " y "
+  ],
+
+
+  "key":
+  {
+
+    "x":
+    {
+      "item":"minecraft:emerald"
+    },
+
+    "y":
+    {
+      "item":"minecraft:stick"
+    }
+
+  },
+
+
+  "result":
+  {
+    "item":"mcmod:emerald_sword",
+    "count":1
+  }
+
+
+}

@@ -1,0 +1,35 @@
+{
+  "group":"mcmod",
+  "type":"minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    " y ",
+    " y "
+  ],
+
+
+  "key":
+  {
+
+    "x":
+    {
+      "item":"minecraft:nether_star"
+    },
+
+    "y":
+    {
+      "item":"minecraft:stick"
+    }
+
+  },
+
+
+  "result":
+  {
+    "item":"mcmod:nether_star_hoe",
+    "count":1
+  }
+
+
+}

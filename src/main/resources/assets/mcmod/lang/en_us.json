@@ -11,11 +11,33 @@
   "item.mcmod.my_crossbow": "Crossbow",
   "item.mcmod.throwable_arrow": "Throwable Arrow",
   "block.mcmod.nether_block": "Nether Block",
-  "item.mcmod.redstoneaxe": "Redstone Axe",
-  "item.mcmod.redstonesword": "Redstone Sword",
-  "item.mcmod.redstonepickaxe": "Redstone Pickaxe",
-  "item.mcmod.redstoneshovel": "Redstone Shovel",
-  "item.mcmod.redstonehoe": "Redstone Hoe"
+  "item.mcmod.redstone_axe": "Redstone Axe",
+  "item.mcmod.redstone_sword": "Redstone Sword",
+  "item.mcmod.redstone_pickaxe": "Redstone Pickaxe",
+  "item.mcmod.redstone_shovel": "Redstone Shovel",
+  "item.mcmod.redstone_hoe": "Redstone Hoe",
 
+  "item.mcmod.emerald_sword": "Emerald Sword",
+  "item.mcmod.emerald_pickaxe": "Emerald Pickaxe",
+  "item.mcmod.emerald_axe": "Emerald Axe",
+  "item.mcmod.emerald_shovel": "Emerald Shovel",
+  "item.mcmod.emerald_hoe": "Emerald Hoe",
 
+  "item.mcmod.lapis_sword": "Lapis Sword",
+  "item.mcmod.lapis_pickaxe": "Lapis Pickaxe",
+  "item.mcmod.lapis_axe": "Lapis Axe",
+  "item.mcmod.lapis_shovel": "Lapis Shovel",
+  "item.mcmod.lapis_hoe": "Lapis Hoe",
+
+  "item.mcmod.copper_sword": "Copper Sword",
+  "item.mcmod.copper_pickaxe": "Copper Pickaxe",
+  "item.mcmod.copper_axe": "Copper Axe",
+  "item.mcmod.copper_shovel": "Copper Shovel",
+  "item.mcmod.copper_hoe": "Copper Hoe",
+
+  "item.mcmod.nether_star_sword": "Nether Star Sword",
+  "item.mcmod.nether_star_pickaxe": "Nether Star Pickaxe",
+  "item.mcmod.nether_star_axe": "Nether Star Axe",
+  "item.mcmod.nether_star_shovel": "Nether Star Shovel",
+  "item.mcmod.nether_star_hoe": "Nether Star Hoe"
 }

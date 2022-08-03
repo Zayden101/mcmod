@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "mcmod:item/redstoneshovel"
+    "layer0": "mcmod:item/nether_star_pickaxe"
   }
 }

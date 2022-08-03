@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "mcmod:item/redstonepickaxe"
+    "layer0": "mcmod:item/redstone_pickaxe"
   }
 }
