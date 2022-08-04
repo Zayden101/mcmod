@@ -11,6 +11,7 @@
   "item.mcmod.my_crossbow": "Crossbow",
   "item.mcmod.throwable_arrow": "Throwable Arrow",
   "block.mcmod.nether_block": "Nether Block",
+
   "item.mcmod.redstone_axe": "Redstone Axe",
   "item.mcmod.redstone_sword": "Redstone Sword",
   "item.mcmod.redstone_pickaxe": "Redstone Pickaxe",
@@ -39,5 +40,11 @@
   "item.mcmod.nether_star_pickaxe": "Nether Star Pickaxe",
   "item.mcmod.nether_star_axe": "Nether Star Axe",
   "item.mcmod.nether_star_shovel": "Nether Star Shovel",
-  "item.mcmod.nether_star_hoe": "Nether Star Hoe"
+  "item.mcmod.nether_star_hoe": "Nether Star Hoe",
+
+  "item.mcmod.coal_sword": "Coal Sword",
+  "item.mcmod.coal_pickaxe": "Coal Pickaxe",
+  "item.mcmod.coal_axe": "Coal Axe",
+  "item.mcmod.coal_shovel": "Coal Shovel",
+  "item.mcmod.coal_hoe": "Coal Hoe"
 }
