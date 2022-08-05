@@ -46,5 +46,8 @@
   "item.mcmod.coal_pickaxe": "Coal Pickaxe",
   "item.mcmod.coal_axe": "Coal Axe",
   "item.mcmod.coal_shovel": "Coal Shovel",
-  "item.mcmod.coal_hoe": "Coal Hoe"
+  "item.mcmod.coal_hoe": "Coal Hoe",
+
+  "item.mcmod.magma_sword": "Magma Sword"
+
 }

@@ -12,6 +12,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModBlocks {
 
     //    ./gradlew runClient
+    //    9203761810494409281
+    //    5819196019061264483
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ExampleMod.MODID);
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MODID);
@@ -65,6 +67,14 @@ public class ModBlocks {
     public static final RegistryObject<Item> COAL_AXE = ITEMS.register("coal_axe", () -> new AxeItem(ItemTier.WOOD, 3, -3.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
     public static final RegistryObject<Item> COAL_SHOVEL = ITEMS.register("coal_shovel", () -> new ShovelItem(ItemTier.WOOD, 1, -2.9f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
     public static final RegistryObject<Item> COAL_HOE = ITEMS.register("coal_hoe", () -> new HoeItem(ItemTier.WOOD, 1, -2.7f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> MAGMA_SWORD= ITEMS.register("magma_sword", () -> new SwordItem(ItemTier.IRON, 4, -2.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> MAGMA_PICKAXE = ITEMS.register("magma_pickaxe", () -> new PickaxeItem(ItemTier.IRON, 2, -2.4f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> MAGMA_AXE = ITEMS.register("magma_axe", () -> new AxeItem(ItemTier.IRON, 6, -3.8f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> MAGMA_SHOVEL = ITEMS.register("magma_shovel", () -> new ShovelItem(ItemTier.IRON, 1, -2.9f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<Item> MAGMA_HOE = ITEMS.register("magma_hoe", () -> new HoeItem(ItemTier.IRON, 1, -2.7f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+
+    public static final RegistryObject<Item> BREAD_SWORD= ITEMS.register("bread_sword", () -> new SwordItem(ItemTier.STONE, 8, -3.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
     //public static final RegistryObject<Item> _SWORD= ITEMS.register("_sword", () -> new SwordItem(ItemTier.WOOD, 2, -2.0f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
     //public static final RegistryObject<Item> _PICKAXE = ITEMS.register("_pickaxe", () -> new PickaxeItem(ItemTier.WOOD, 1, -2.6f, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
