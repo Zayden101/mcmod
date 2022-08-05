@@ -1,0 +1,35 @@
+{
+  "group":"mcmod",
+  "type":"minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    " x ",
+    " y "
+  ],
+
+
+  "key":
+  {
+
+    "x":
+    {
+      "item":"minecraft:bread"
+    },
+
+    "y":
+    {
+      "item":"minecraft:stick"
+    }
+
+  },
+
+
+  "result":
+  {
+    "item":"mcmod:bread_sword",
+    "count":1
+  }
+
+
+}
